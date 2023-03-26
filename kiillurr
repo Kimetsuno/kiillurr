@@ -13,9 +13,7 @@ local developerSection = developer:NewSection("developer")
 
 
 
-mainSection:NewSlider("speeds", "Slider", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-end)
+
 
 mainSection:NewButton("ice", "brookhaven", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
